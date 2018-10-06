@@ -10,7 +10,7 @@ public class Cliente extends Thread{
     int port;
     String ip;
 
-   public Cliente (String ip, int puerto){
+   public Cliente (String ip, int port){
        this.ip =ip;
        this.port = port;
 

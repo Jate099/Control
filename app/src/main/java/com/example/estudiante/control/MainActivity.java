@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
         //String ip = e.getText();
 
-        c = new Cliente("10.0..2.2", 5000);
+        c = new Cliente("172.30.120.45", 5000);
         c.start();
         m = new Mensaje();
 
